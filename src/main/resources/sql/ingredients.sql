@@ -1,0 +1,10 @@
+DELETE FROM `ingredients` WHERE 1;
+INSERT INTO `ingredients`(`dtype`, `id`, `amount`, `base_price`, `name`) VALUES ('EspressoBase', 1, 10, 4.99, 'Espresso');
+INSERT INTO `ingredients`(`dtype`, `id`, `amount`, `base_price`, `name`) VALUES ('BlackCoffeeBase', 2, 10, 5.49, 'Black Coffee');
+INSERT INTO `ingredients`(`dtype`, `id`, `amount`, `base_price`, `name`) VALUES ('Cinnamon', 3, 10, 2.3, 'Cinnamon');
+INSERT INTO `ingredients`(`dtype`, `id`, `amount`, `base_price`, `name`) VALUES ('Honey', 4, 10, 2.99, 'Honey');
+INSERT INTO `ingredients`(`dtype`, `id`, `amount`, `base_price`, `name`) VALUES ('MilkFoam', 5, 10, 1.4, 'Milk Foam');
+INSERT INTO `ingredients`(`dtype`, `id`, `amount`, `base_price`, `name`) VALUES ('SteamedMilk', 6, 10, 1.99, 'Steamed Milk');
+INSERT INTO `ingredients`(`dtype`, `id`, `amount`, `base_price`, `name`) VALUES ('Sugar', 7, 10, 0.15, 'Sugar');
+INSERT INTO `ingredients`(`dtype`, `id`, `amount`, `base_price`, `name`) VALUES ('BrownSugar', 8, 10, 0.25, 'Brown Sugar');
+SELECT * FROM ingredients;
